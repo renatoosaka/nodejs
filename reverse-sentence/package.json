@@ -1,0 +1,24 @@
+{
+  "name": "reverse-sentence",
+  "version": "0.1.0",
+  "description": "Reverses a sentence.",
+  "main": "index.js",
+  "author": "Renato Hideki Osaka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://localhost"
+  },
+  "bugs": {
+    "url": "http://localhost"
+  },
+  "homepage": "http://localhost",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/prettier/bin-prettier.js . --write",
+    "prepublish": "npm run lint"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
